@@ -89,28 +89,28 @@
         M01: M01 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp LS(A) &kp V &kp E &kp N &kp G &kp E &kp D &kp N4 &kp N0 &kp LS(F) &kp O &kp L &kp D &kp ENTER>;
+            bindings = <&kp LS(A) &kp V &kp E &kp N &kp G &kp E &kp D &kp N4 &kp N0 &kp LS(F) &kp O &kp L &kp D &kp ENTER>;
             label = "M01";
         };
 
         M02: M02 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp LS(A) &kp V &kp E &kp N &kp G &kp E &kp D &kp N8 &kp N9 &kp LS(F) &kp O &kp L &kp D &kp ENTER>;
+            bindings = <&kp LS(A) &kp V &kp E &kp N &kp G &kp E &kp D &kp N8 &kp N9 &kp LS(F) &kp O &kp L &kp D &kp ENTER>;
             label = "M02";
         };
 
         M03: M03 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp LS(A) &kp V &kp E &kp N &kp G &kp E &kp D &kp N1 &kp LS(F) &kp O &kp L &kp D &kp ENTER>;
+            bindings = <&kp LS(A) &kp V &kp E &kp N &kp G &kp E &kp D &kp N1 &kp LS(F) &kp O &kp L &kp D &kp ENTER>;
             label = "M03";
         };
 
         M04: M04 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp LS(A) &kp V &kp E &kp N &kp G &kp E &kp D &kp N2 &kp LS(F) &kp O &kp L &kp D &kp ENTER>;
+            bindings = <&kp LS(A) &kp V &kp E &kp N &kp G &kp E &kp D &kp N2 &kp LS(F) &kp O &kp L &kp D &kp ENTER>;
             label = "M04";
         };
 
@@ -124,21 +124,21 @@
         M06: M06 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp LS(K) &kp LS(D) &kp E &kp V &kp AT &kp N2 &kp N3 &kp N1 &kp N0 &kp ENTER>;
+            bindings = <&kp LS(K) &kp LS(D) &kp E &kp V &kp AT &kp N2 &kp N3 &kp N1 &kp N0 &kp ENTER>;
             label = "M06";
         };
 
         M07: M07 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp LS(M) &kp C &kp O &kp N2 &kp N0 &kp N2 &kp N3 &kp N1 &kp N0 &kp EXCL &kp ENTER>;
+            bindings = <&kp LS(M) &kp C &kp O &kp N2 &kp N0 &kp N2 &kp N3 &kp N1 &kp N0 &kp EXCL &kp ENTER>;
             label = "M07";
         };
 
         M08: M08 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp LS(D) &kp T &kp C &kp N2 &kp K &kp A &kp N &kp P &kp O &kp UNDER &kp N2 &kp N0 &kp N2 &kp N4 &kp UNDER &kp EXCL &kp POUND &kp ENTER>;
+            bindings = <&kp LS(D) &kp T &kp C &kp N2 &kp K &kp A &kp N &kp P &kp O &kp UNDER &kp N2 &kp N0 &kp N2 &kp N4 &kp UNDER &kp EXCL &kp POUND &kp ENTER>;
             label = "M08";
         };
 
@@ -152,7 +152,7 @@
         M10: M10 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp LS(K) &kp A &kp M &kp P &kp O &kp S &kp O &kp L &kp N2 &kp N0 &kp N1 &kp N7 &kp ENTER>;
+            bindings = <&kp LS(K) &kp A &kp M &kp P &kp O &kp S &kp O &kp L &kp N2 &kp N0 &kp N1 &kp N7 &kp ENTER>;
             label = "M10";
         };
 
