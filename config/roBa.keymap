@@ -248,10 +248,10 @@
 
         MACRO {
             bindings = <
-&trans            &trans  &trans  &trans  &trans                       &trans  &trans  &trans  &trans  &trans
-&trans            &trans  &trans  &trans  &kp LCTRL  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans            &trans  &trans  &trans  &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&kp LS(CAPSLOCK)  &trans  &trans  &trans  &trans     &trans    &trans  &trans                          &kp LS(F10)
+&trans            &trans  &trans  &trans  &trans                       &M11    &M12  &M13  &M14  &M15
+&trans            &trans  &trans  &trans  &kp LCTRL  &trans    &trans  &M06    &M07  &M08  &M09  &M10
+&trans            &trans  &trans  &trans  &trans     &trans    &trans  &M01    &M02  &M03  &M04  &M05
+&kp LS(CAPSLOCK)  &trans  &trans  &trans  &trans     &trans    &trans  &trans                    &kp LS(F10)
             >;
         };
 
