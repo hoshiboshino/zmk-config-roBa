@@ -6,8 +6,8 @@
 #include <dt-bindings/zmk/outputs.h>
 
 #define MOUSE 7
-#define SCROLL 4
-#define NUM 3
+#define MACRO 4
+#define NUM_ARROW 3
 
 &mt {
     flavor = "balanced";
