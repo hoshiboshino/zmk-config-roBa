@@ -229,18 +229,18 @@
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt 2 SPACE  &lt 3 SPACE  &lt 4 GRAVE    &kp BACKSPACE  &lt 3 ENTER                             &kp RCTRL
             >;
 
-            sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
+            sensor-bindings = <&inc_dec_kp K_SCROLL_DOWN K_SCROLL_UP>;
         };
 
         Astarte {
             bindings = <
-&lt 5 Q           &kt P         &kt U          &kp Y        &kp COMMA                                                &kp J        &kp D  &kp H  &kp G  &lt 5 W
-&lt 6 I           &kp O         &kp E          &kp A        &kp PERIOD   &kp HOME                     &kp MINUS      &kp K        &kp T  &kp N  &kp S  &lt 6 R
-&mt LEFT_SHIFT Z  &kp X         &kp SEMICOLON  &kp C        &kp SLASH    &kp END                      &kp COLON      &kp M        &kp L  &kp F  &kp B  &mt RIGHT_SHIFT V
-&kp LCTRL         &kp LEFT_GUI  &kp LEFT_ALT   &lt 2 SPACE  &lt 3 SPACE  &lt 4 LANG_ZENKAKUHANKAKU    &kp BACKSPACE  &lt 3 ENTER                       &kp RCTRL
+&lt 5 Q           &kt P         &kt U          &kp Y        &kp COMMA                                  &kp J        &kp D  &kp H  &kp G  &lt 5 W
+&lt 6 I           &kp O         &kp E          &kp A        &kp PERIOD   &kp HOME       &kp MINUS      &kp K        &kp T  &kp N  &kp S  &lt 6 R
+&mt LEFT_SHIFT Z  &kp X         &kp SEMICOLON  &kp C        &kp SLASH    &kp END        &kp COLON      &kp M        &kp L  &kp F  &kp B  &mt RIGHT_SHIFT V
+&kp LCTRL         &kp LEFT_GUI  &kp LEFT_ALT   &lt 2 SPACE  &lt 3 SPACE  &lt 4 GRAVE    &kp BACKSPACE  &lt 3 ENTER                       &kp RCTRL
             >;
 
-            sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
+            sensor-bindings = <&inc_dec_kp K_SCROLL_DOWN K_SCROLL_UP>;
         };
 
         FUNCTION {
