@@ -229,7 +229,7 @@
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt 2 SPACE  &lt 3 SPACE  &lt 4 GRAVE    &kp BACKSPACE     &lt 3 ENTER                             &kp RCTRL
             >;
 
-            sensor-bindings = <&inc_dec_kp C_AC_SCROLL_DOWN C_AC_SCROLL_UP>;
+            sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
         };
 
         Astarte {
@@ -240,7 +240,7 @@
 &kp LCTRL         &kp LEFT_GUI  &kp LEFT_ALT   &lt 2 SPACE  &lt 3 SPACE  &lt 4 GRAVE    &kp BACKSPACE      &lt 3 ENTER                       &kp RCTRL
             >;
 
-            sensor-bindings = <&inc_dec_kp C_AC_SCROLL_DOWN C_AC_SCROLL_UP>;
+            sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
         };
 
         FUNCTION {
@@ -254,10 +254,10 @@
 
         NUM_ARROW {
             bindings = <
-&kp ESCAPE  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ASTERISK                                    &mkp MB4       &mkp MB5        &mkp MB3        &kp LC(W)        &kp LG(UP_ARROW)
-&kp SLASH   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS     &trans                &trans      &kp PAGE_UP    &mkp MB1        &kp UP_ARROW    &mkp MB2         &kp LG(DOWN_ARROW)
-&trans      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS      &trans                &trans      &kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
-&trans      &kp NUMBER_0  &kp DOT       &kp LG(X)     &kp KP_ENTER  &kp LC(LA(DELETE))    &kp DELETE  &trans                                                          &trans
+&kp ESCAPE  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ASTERISK                                         &mkp MB4       &mkp MB5        &mkp MB3        &kp LC(W)        &kp LG(UP_ARROW)
+&kp SLASH   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS          &trans                &trans      &kp PAGE_UP    &mkp MB1        &kp UP_ARROW    &mkp MB2         &kp LG(DOWN_ARROW)
+&trans      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LS(SEMICOLON)  &trans                &trans      &kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
+&trans      &kp NUMBER_0  &kp DOT       &kp LG(X)     &kp KP_ENTER       &kp LC(LA(DELETE))    &kp DELETE  &trans                                                          &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
