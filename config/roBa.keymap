@@ -234,10 +234,10 @@
 
         Astarte {
             bindings = <
-&lt 5 Q           &kt P         &kt U          &kp Y        &kp COMMA                                     &kp J        &kp D  &kp H  &kp G  &lt 5 W
-&lt 6 I           &kp O         &kp E          &kp A        &kp PERIOD   &kp HOME       &kp LEFT_BRACKET  &kp K        &kp T  &kp N  &kp S  &lt 6 R
-&mt LEFT_SHIFT Z  &kp X         &kp SEMICOLON  &kp C        &kp SLASH    &kp END        &kp COLON         &kp M        &kp L  &kp F  &kp B  &mt RIGHT_SHIFT V
-&kp LCTRL         &kp LEFT_GUI  &kp LEFT_ALT   &lt 2 SPACE  &lt 3 SPACE  &lt 4 GRAVE    &kp BACKSPACE     &lt 3 ENTER                       &kp RCTRL
+&lt 5 Q           &kt P         &kt U          &kp Y        &kp COMMA                                      &kp J        &kp D  &kp H  &kp G  &lt 5 W
+&lt 6 I           &kp O         &kp E          &kp A        &kp PERIOD   &kp HOME       &kp LEFT_BRACKET   &kp K        &kp T  &kp N  &kp S  &lt 6 R
+&mt LEFT_SHIFT Z  &kp X         &kp SEMICOLON  &kp C        &kp SLASH    &kp END        &kp LS(SEMICOLON)  &kp M        &kp L  &kp F  &kp B  &mt RIGHT_SHIFT V
+&kp LCTRL         &kp LEFT_GUI  &kp LEFT_ALT   &lt 2 SPACE  &lt 3 SPACE  &lt 4 GRAVE    &kp BACKSPACE      &lt 3 ENTER                       &kp RCTRL
             >;
 
             sensor-bindings = <&inc_dec_kp C_AC_SCROLL_DOWN C_AC_SCROLL_UP>;
@@ -246,7 +246,7 @@
         FUNCTION {
             bindings = <
 &kp F1   &kp F2        &kp F3            &kp F4      &kp F5                                   &kp F6                &kp F7                 &kp F8            &kp F9             &kp F10
-&kp TAB  &kp LA(TAB)   &kp LC(LEFT_ALT)  &kp LA(F4)  &kp LEFT_ALT  &trans    &trans           &kp LEFT_BRACKET      &kp UNDERSCORE         &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp COLON
+&kp TAB  &kp LA(TAB)   &kp LC(LEFT_ALT)  &kp LA(F4)  &kp LEFT_ALT  &trans    &trans           &kp LEFT_BRACKET      &kp UNDERSCORE         &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp LS(SEMICOLON)
 &trans   &trans        &trans            &kp F11     &kp F12       &trans    &trans           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH
 &trans   &kp LEFT_GUI  &kp LEFT_ALT      &trans      &trans        &trans    &kp EXCLAMATION  &kp QUESTION                                                                      &kt PIPE
             >;
