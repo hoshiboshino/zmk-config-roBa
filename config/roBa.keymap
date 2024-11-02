@@ -229,7 +229,7 @@
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt 2 SPACE  &lt 3 SPACE  &lt 4 GRAVE    &kp BACKSPACE  &lt 3 ENTER                             &kp RCTRL
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOLUME_DOWN>;
+            sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
         };
 
         Astarte {
@@ -239,6 +239,8 @@
 &mt LEFT_SHIFT Z  &kp X         &kp SEMICOLON  &kp C        &kp SLASH    &kp END                      &kp COLON      &kp M        &kp L  &kp F  &kp B  &mt RIGHT_SHIFT V
 &kp LCTRL         &kp LEFT_GUI  &kp LEFT_ALT   &lt 2 SPACE  &lt 3 SPACE  &lt 4 LANG_ZENKAKUHANKAKU    &kp BACKSPACE  &lt 3 ENTER                       &kp RCTRL
             >;
+
+            sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
         };
 
         FUNCTION {
@@ -263,11 +265,13 @@
 
         MACRO {
             bindings = <
-&trans            &trans  &trans  &trans  &trans                       &M11  &M12  &M13  &M14  &M15
-&trans            &trans  &trans  &trans  &kp LCTRL  &trans    &trans  &M06  &M07  &M08  &M09  &M10
-&trans            &trans  &trans  &trans  &trans     &trans    &trans  &M01  &M02  &M03  &M04  &M05
-&kp LS(CAPSLOCK)  &trans  &trans  &trans  &trans     &trans    &M0     &M00                    &kp LS(F10)
+&trans            &trans  &trans  &trans  &trans                           &M11  &M12  &M13  &M14  &M15
+&trans            &trans  &trans  &trans  &kp LCTRL  &kp K_MUTE    &trans  &M06  &M07  &M08  &M09  &M10
+&trans            &trans  &trans  &trans  &trans     &trans        &trans  &M01  &M02  &M03  &M04  &M05
+&kp LS(CAPSLOCK)  &trans  &trans  &trans  &trans     &trans        &M0     &M00                    &kp LS(F10)
             >;
+
+            sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
         };
 
         DEVICE_CONTROL {
