@@ -292,11 +292,13 @@
 
         Astarte {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                          &trans
+&lt 5 Q           &kt P         &kt U          &kp Y        &kp COMMA                                      &kp J        &kp D  &kp H  &kp G  &lt 5 W
+&lt 6 I           &kp O         &kp E          &kp A        &kp PERIOD   &kp HOME       &kp LEFT_BRACKET   &kp K        &kp T  &kp N  &kp S  &lt 6 R
+&mt LEFT_SHIFT Z  &kp X         &kp SEMICOLON  &kp C        &kp SLASH    &kp END        &kp LS(SEMICOLON)  &kp M        &kp L  &kp F  &kp B  &mt RIGHT_SHIFT V
+&kp LCTRL         &kp LEFT_GUI  &kp LEFT_ALT   &lt 2 SPACE  &lt 3 SPACE  &lt 4 GRAVE    &kp BACKSPACE      &lt 3 ENTER                       &kp RCTRL
             >;
+
+            sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
         };
     };
 };
