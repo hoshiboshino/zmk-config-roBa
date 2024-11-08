@@ -60,7 +60,7 @@
         };
 
         Tilde {
-            bindings = <&kp RS(CARET)>;
+            bindings = <&kp CARET>;
             key-positions = <6 7>;
         };
 
