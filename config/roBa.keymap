@@ -60,7 +60,7 @@
         };
 
         Tilde {
-            bindings = <&kp TILDE>;
+            bindings = <&kp RS(CARET)>;
             key-positions = <6 7>;
         };
 
@@ -276,7 +276,7 @@
 
         NUM {
             bindings = <
-&kp ESCAPE  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ASTERISK                                         &mkp MB4       &mkp MB5        &mkp MB3        &kp LC(W)        &kp LG(UP_ARROW)
+&kp ESCAPE  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_ASTERISK                                      &mkp MB4       &mkp MB5        &mkp MB3        &kp LC(W)        &kp LG(UP_ARROW)
 &kp SLASH   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS          &trans                &trans      &kp PAGE_UP    &mkp MB1        &kp UP_ARROW    &mkp MB2         &kp LG(DOWN_ARROW)
 &trans      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LS(SEMICOLON)  &trans                &trans      &kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
 &trans      &kp NUMBER_0  &kp DOT       &kp LG(X)     &kp KP_ENTER       &kp LC(LA(DELETE))    &kp DELETE  &trans                                                          &trans
