@@ -159,7 +159,7 @@
         M08: M08 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(D) &kp T &kp C &kp N2 &kp K &kp A &kp N &kp P &kp O &kp UNDER &kp N2 &kp N0 &kp N2 &kp N4 &kp UNDER &kp EXCL &kp POUND &kp ENTER>;
+            bindings = <&kp LS(D) &kp T &kp C &kp N2 &kp K &kp A &kp N &kp P &kp O &kp LS(INTERNATIONAL_1) &kp N2 &kp N0 &kp N2 &kp N4 &kp LS(INTERNATIONAL_1) &kp EXCL &kp POUND &kp ENTER>;
             label = "M08";
         };
 
