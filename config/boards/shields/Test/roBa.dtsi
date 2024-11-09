@@ -42,14 +42,14 @@
         status = "disabled";
     };
 
-    cursor_movement {
-        compatible = "zmk,cursor-movement";
-        threshold = <5>;
-    };
-
     sensors: sensors {
         compatible = "zmk,keymap-sensors";
         sensors = <&left_encoder &right_encoder>;
         triggers-per-rotation = <10>;
+
+    };
+    cursor_movement {
+        compatible = "zmk,cursor-movement";
+        threshold = <5>;
     };
 };
