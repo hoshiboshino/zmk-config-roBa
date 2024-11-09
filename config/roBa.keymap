@@ -268,8 +268,8 @@
         FUNCTION {
             bindings = <
 &kp F1   &kp F2        &kp F3            &kp F4      &kp F5                                   &kp F6            &kp F7        &kp F8                 &kp F9             &kp F10
-&kp TAB  &kp LA(TAB)   &kp LC(LEFT_ALT)  &kp LA(F4)  &kp LEFT_ALT  &trans    &kp NUHS         &kp LEFT_BRACKET  &kp LS(INT1)  &kp LS(RIGHT_BRACKET)  &kp LS(BACKSLASH)  &kp SINGLE_QUOTE
-&trans   &trans        &trans            &kp F11     &kp F12       &trans    &kp LS(NUHS)     &kp LS(N8)        &kp LS(N9)    &kp RIGHT_BRACKET      &kp BACKSLASH      &kp INT3
+&kp TAB  &kp LA(TAB)   &kp LC(LEFT_ALT)  &kp LA(F4)  &kp LEFT_ALT  &trans    &kp LS(EQUAL)    &kp LEFT_BRACKET  &kp LS(INT1)  &kp LS(RIGHT_BRACKET)  &kp LS(BACKSLASH)  &kp SINGLE_QUOTE
+&trans   &trans        &trans            &kp F11     &kp F12       &trans    &kp EQUAL        &kp LS(N8)        &kp LS(N9)    &kp RIGHT_BRACKET      &kp BACKSLASH      &kp INT3
 &trans   &kp LEFT_GUI  &kp LEFT_ALT      &trans      &trans        &trans    &kp EXCLAMATION  &kp QUESTION                                                              &kt LS(INT3)
             >;
         };
