@@ -60,7 +60,7 @@
         };
 
         Tilde {
-            bindings = <&kp LS(GRAVE)>;
+            bindings = <&kp LS(EQUAL)>;
             key-positions = <6 7>;
         };
 
@@ -80,7 +80,7 @@
         };
 
         Tog_Qwerty {
-            bindings = <&tog 0>;
+            bindings = <&tog 1>;
             key-positions = <34 42>;
         };
     };
@@ -256,10 +256,10 @@
 
         ASTARTE {
             bindings = <
-&lt 4 Q           &kt P         &kt U          &kp Y        &kp COMMA                                         &kp J        &kp D  &kp H  &kp G  &lt 4 W
-&lt 5 I           &kp O         &kp E          &kp A        &kp PERIOD   &kp HOME       &kp LEFT_BRACKET      &kp K        &kp T  &kp N  &kp S  &lt 5 R
-&mt LEFT_SHIFT Z  &kp X         &kp SEMICOLON  &kp C        &kp SLASH    &kp END        &kp LS(SINGLE_QUOTE)  &kp M        &kp L  &kp F  &kp B  &mt RIGHT_SHIFT V
-&kp LCTRL         &kp LEFT_GUI  &kp LEFT_ALT   &lt 2 SPACE  &lt 3 SPACE  &lt 7 GRAVE    &kp BACKSPACE         &lt 3 ENTER                       &kp RCTRL
+&lt 4 Q           &kt P         &kt U          &kp Y        &kp COMMA                                     &kp J        &kp D  &kp H  &kp G  &lt 4 W
+&lt 5 I           &kp O         &kp E          &kp A        &kp PERIOD   &kp HOME       &kp LEFT_BRACKET  &kp K        &kp T  &kp N  &kp S  &lt 5 R
+&mt LEFT_SHIFT Z  &kp X         &kp SEMICOLON  &kp C        &kp SLASH    &kp END        &kp SINGLE_QUOTE  &kp M        &kp L  &kp F  &kp B  &mt RIGHT_SHIFT V
+&kp LCTRL         &kp LEFT_GUI  &kp LEFT_ALT   &lt 2 SPACE  &lt 3 SPACE  &lt 7 GRAVE    &kp BACKSPACE     &lt 3 ENTER                       &kp RCTRL
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -268,8 +268,8 @@
         FUNCTION {
             bindings = <
 &kp F1   &kp F2        &kp F3            &kp F4      &kp F5                                   &kp F6            &kp F7        &kp F8                 &kp F9             &kp F10
-&kp TAB  &kp LA(TAB)   &kp LC(LEFT_ALT)  &kp LA(F4)  &kp LEFT_ALT  &trans    &kp LS(EQUAL)    &kp LEFT_BRACKET  &kp LS(INT1)  &kp LS(RIGHT_BRACKET)  &kp LS(BACKSLASH)  &kp SINGLE_QUOTE
-&trans   &trans        &trans            &kp F11     &kp F12       &trans    &kp EQUAL        &kp LS(N8)        &kp LS(N9)    &kp RIGHT_BRACKET      &kp BACKSLASH      &kp INT3
+&kp TAB  &kp LA(TAB)   &kp LC(LEFT_ALT)  &kp LA(F4)  &kp LEFT_ALT  &trans    &trans           &kp LEFT_BRACKET  &kp LS(INT1)  &kp LS(RIGHT_BRACKET)  &kp LS(BACKSLASH)  &kp SINGLE_QUOTE
+&trans   &trans        &trans            &kp F11     &kp F12       &trans    &trans           &kp LS(N8)        &kp LS(N9)    &kp RIGHT_BRACKET      &kp BACKSLASH      &kp INT3
 &trans   &kp LEFT_GUI  &kp LEFT_ALT      &trans      &trans        &trans    &kp EXCLAMATION  &kp QUESTION                                                              &kt LS(INT3)
             >;
         };
