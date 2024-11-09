@@ -18,7 +18,12 @@
     trackball_listener {
         compatible = "zmk,input-listener";
         device = <&trackball>;
+    };
 
+    trackball_sensor: trackball_sensor {
+        compatible = "zmk,sensor";
+        label = "Trackball Sensor";
+        threshold = <閾値>; // 閾値を設定
     };
 };
 
@@ -59,5 +64,3 @@
         scroll-layers = <7>;
     };
 };
-
-
