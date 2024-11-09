@@ -23,7 +23,7 @@
     trackball_sensor: trackball_sensor {
         compatible = "zmk,sensor";
         label = "Trackball Sensor";
-        threshold = <閾値>; // 閾値を設定
+        threshold = <10>; // 例として閾値を10に設定
     };
 };
 
