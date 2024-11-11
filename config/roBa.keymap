@@ -256,7 +256,7 @@
 
         ASTARTE {
             bindings = <
-&lt 4 Q           &kt P         &kt U          &kp Y        &kp COMMA                                     &kp J        &kp D  &kp H  &kp G  &lt 4 W
+&lt 4 Q           &kp P         &kp U          &kp Y        &kp COMMA                                     &kp J        &kp D  &kp H  &kp G  &lt 4 W
 &lt 5 I           &kp O         &kp E          &kp A        &kp PERIOD   &kp HOME       &kp LEFT_BRACKET  &kp K        &kp T  &kp N  &kp S  &lt 5 R
 &mt LEFT_SHIFT Z  &kp X         &kp SEMICOLON  &kp C        &kp SLASH    &kp END        &kp SINGLE_QUOTE  &kp M        &kp L  &kp F  &kp B  &mt RIGHT_SHIFT V
 &kp LCTRL         &kp LEFT_GUI  &kp LEFT_ALT   &lt 2 SPACE  &lt 3 SPACE  &lt 7 GRAVE    &kp BACKSPACE     &lt 3 ENTER                       &kp RCTRL
