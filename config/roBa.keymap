@@ -82,6 +82,11 @@
             bindings = <&tog 1>;
             key-positions = <34 42>;
         };
+
+        Clipboard {
+            bindings = <&kp LG(V)>;
+            key-positions = <30 31 32>;
+        };
     };
 
     macros {
