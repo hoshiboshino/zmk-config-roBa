@@ -285,8 +285,6 @@
 &trans      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LS(SEMICOLON)  &trans                &trans      &kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
 &trans      &kp NUMBER_0  &kp DOT       &kp LG(X)     &kp KP_ENTER       &kp LC(LA(DELETE))    &kp DELETE  &trans                                                          &trans
             >;
-
-            sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
         };
 
         DEVICE_CONTROL {
