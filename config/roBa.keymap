@@ -303,7 +303,7 @@
 &trans  &kp LG(PRINTSCREEN)     &kp LA(PRINTSCREEN)      &kp LS(LG(S))  &trans                           &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)   &kp LC(UP_ARROW)    &trans               &trans
 &trans  &kp LA(LC(LEFT_ARROW))  &kp LA(LC(RIGHT_ARROW))  &trans         &trans         &trans    &trans  &kp LC(HOME)     &kp LC(LEFT_ARROW)  &kp LC(DOWN_ARROW)  &kp LC(RIGHT_ARROW)  &trans
 &trans  &kp LS(LG(LEFT_ARROW))  &kp LS(LG(RIGHT_ARROW))  &trans         &trans         &trans    &trans  &kp LC(END)      &trans              &trans              &trans               &trans
-&trans  &trans                  &trans                   &kp LG(LEFT)   &kp LG(RIGHT)  &trans    &none   &none                                                                         &trans
+&trans  &trans                  &trans                   &kp LG(LEFT)   &kp LG(RIGHT)  &trans    &trans  &trans                                                                        &trans
             >;
         };
 
