@@ -114,7 +114,7 @@
         M01: M01 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(A) &kp V &kp E &kp N &kp G &kp E &kp D &kp N4 &kp N0 &kp LS(F) &kp O &kp L &kp D &kp ENTER>;
+            bindings = <&kp LS(A) &kp V &kp E &kp N &kp G &kp E &kp D &kp N4 &kp N1 &kp LS(F) &kp O &kp L &kp D &kp ENTER>;
             label = "M01";
         };
 
