@@ -3,17 +3,16 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
-#include <dt-bindings/zmk/pointing.h>
-#include <dt-bindings/zmk/pointing.h>
 
 #define DEFAULT 0
 #define ASTARTE 1
-#define FUNCTION 2
-#define NUM 3
-#define D_CON 4
-#define ANY 5
-#define MOUSE 6
-#define SCROLL 7
+#define Gamd 2
+#define FUNCTION 3
+#define NUM 4
+#define D_CON 5
+#define ANY 6
+#define MOUSE 7
+#define SCROLL 8
 #define ZMK_MOUSE_DEFAULT_SCRL_VAL 100
 
 &mt {
