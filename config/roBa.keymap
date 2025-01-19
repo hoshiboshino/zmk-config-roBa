@@ -1,6 +1,8 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/outputs.h>
+#include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/pointing.h>
 
 #define DEFAULT 0
@@ -15,7 +17,6 @@
 #define ZMK_MOUSE_DEFAULT_SCRL_VAL 100
 
 &sl { release-after-ms = <300>; }; // ダブルクリックに必要な時間を設定
-
 &mt {
     flavor = "balanced";
     quick-tap-ms = <0>;
@@ -266,7 +267,6 @@
         sensor-bindings = <&scroll_up_down>;
     };
 
-
     keymap {
         compatible = "zmk,keymap";
 
@@ -321,10 +321,10 @@
 
         DEVICE_CONTROL {
             bindings = <
-&trans  &trans  &trans  &trans          &trans                           &trans        &trans        &trans        &trans        &trans
-&trans  &trans  &trans  &trans          &trans  &trans          &trans   &trans        &trans        &trans        &trans        &trans
-&trans  &trans  &trans  &trans          &trans  &trans          &trans   &trans        &trans        &trans        &trans        &trans
-&trans  &trans  &trans  &trans          &trans  &trans          &trans   &trans                                                  &trans
+&trans      &trans  &trans          &trans  &trans                            &trans        &trans        &trans        &trans        &trans
+&trans      &trans  &trans          &trans  &trans  &trans      &bootloader   &trans        &trans        &trans        &trans        &trans
+&trans      &trans  &trans          &trans  &trans  &trans      &trans        &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
+&bt BT_CLR  &trans  &bt BT_CLR_ALL  &trans  &trans  &trans      &out OUT_BLE  &out OUT_USB                                            &trans
             >;
         };
 
@@ -339,10 +339,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans    &mkp MB3  &trans    &trans                      &trans  &trans    &mkp MB3  &trans    &trans
-&trans  &mkp MB1  &trans    &mkp MB2  &trans  &trans      &trans  &trans  &mkp MB1  &mo 8     &mkp MB2  &trans
-&trans  &trans    &trans    &trans    &trans  &trans      &trans  &trans  &trans    &trans    &trans    &trans
-&trans  &trans    &trans    &trans    &trans  &trans      &trans  &trans                                &trans
+&trans  &trans             &mkp_exit_AML MB3  &trans             &trans                      &trans  &trans             &mkp_exit_AML MB3  &trans             &trans
+&trans  &mkp_exit_AML MB1  &trans             &mkp_exit_AML MB2  &trans  &trans      &trans  &trans  &mkp_exit_AML MB1  &mo 8              &mkp_exit_AML MB2  &trans
+&trans  &trans             &trans             &trans             &trans  &trans      &trans  &trans  &trans             &trans             &trans             &trans
+&trans  &trans             &trans             &trans             &trans  &trans      &trans  &trans                                                           &trans
             >;
         };
 
