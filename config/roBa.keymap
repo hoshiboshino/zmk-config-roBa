@@ -328,31 +328,33 @@
             >;
         };
 
+        ANYTHING {
+            bindings = <
+&trans  &kp LG(PRINTSCREEN)     &kp LA(PRINTSCREEN)      &kp LS(LG(S))  &trans                                            &kp LC(PAGE_UP)    &kp LC(PAGE_DOWN)   &kp LC(UP_ARROW)    &trans               &trans
+&trans  &kp LA(LC(LEFT_ARROW))  &kp LA(LC(RIGHT_ARROW))  &trans         &trans         &trans      &kp LC(SEMICOLON)      &kp LC(HOME)       &kp LC(LEFT_ARROW)  &kp LC(DOWN_ARROW)  &kp LC(RIGHT_ARROW)  &trans
+&trans  &kp LS(LG(LEFT_ARROW))  &kp LS(LG(RIGHT_ARROW))  &trans         &trans         &trans      &kp LC(SINGLE_QUOTE)   &kp LC(END)        &trans              &trans              &trans               &trans
+&trans  &trans                  &trans                   &kp LG(LEFT)   &kp LG(RIGHT)  &trans      &kp LC(LA(LS(MINUS)))  &kp LA(LC(MINUS))                                                               &trans
+            >;
+        };
+
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &trans
+&trans  &trans    &mkp MB3  &trans    &trans                      &trans  &trans    &mkp MB3  &trans    &trans
+&trans  &mkp MB1  &trans    &mkp MB2  &trans  &trans      &trans  &trans  &mkp MB1  &mo 8     &mkp MB2  &trans
+&trans  &trans    &trans    &trans    &trans  &trans      &trans  &trans  &trans    &trans    &trans    &trans
+&trans  &trans    &trans    &trans    &trans  &trans      &trans  &trans                                &trans
             >;
         };
 
         SCROLL {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+&trans            &trans  &trans  &trans  &trans                                        &M11  &M12  &M13  &M14  &M15
+&trans            &trans  &trans  &trans  &kp LCTRL  &kp C_MUTE      &kp C_VOLUME_UP    &M06  &M07  &M08  &M09  &M10
+&trans            &trans  &trans  &trans  &trans     &trans          &kp C_VOLUME_DOWN  &M01  &M02  &M03  &M04  &M05
+&kp LS(CAPSLOCK)  &trans  &trans  &trans  &trans     &trans          &M0                &M00                    &kp LS(F10)
             >;
-        };
 
-        layer_6 {
-            bindings = <
-&trans  &trans        &trans        &trans        &trans                           &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-&trans  &trans        &trans        &trans        &trans  &trans      &trans       &trans        &trans        &trans        &trans        &trans
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans      &bootloader  &trans        &trans        &trans        &trans        &bt BT_CLR
-&trans  &trans        &trans        &trans        &trans  &trans      &trans       &trans                                                  &bt BT_CLR_ALL
-            >;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
         };
     };
 };
