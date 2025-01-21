@@ -295,7 +295,7 @@
         Game {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                      &trans  &trans          &trans          &trans           &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp X           &kp UP_ARROW    &kp C            &mkp MB1
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp X           &kp UP_ARROW    &kp C            &mkp_exit_AML MB1
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp V
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp Z                                                    &trans
             >;
@@ -339,10 +339,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans             &mkp_exit_AML MB3  &trans             &trans                      &trans  &trans             &mkp_exit_AML MB3  &trans             &trans
-&trans  &mkp_exit_AML MB1  &trans             &mkp_exit_AML MB2  &trans  &trans      &trans  &trans  &mkp_exit_AML MB1  &mo 8              &mkp_exit_AML MB2  &trans
-&trans  &trans             &trans             &trans             &trans  &trans      &trans  &trans  &trans             &trans             &trans             &trans
-&trans  &trans             &trans             &trans             &trans  &trans      &trans  &trans                                                           &trans
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans             &mkp_exit_AML MB3  &trans             &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp_exit_AML MB1  &mo 8              &mkp_exit_AML MB2  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans             &trans             &trans             &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                           &trans
             >;
         };
 
