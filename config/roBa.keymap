@@ -16,7 +16,7 @@
 #define SCROLL 8
 #define ZMK_MOUSE_DEFAULT_SCRL_VAL 100
 
-&sl { release-after-ms = <300>; }; // ダブルクリックに必要な時間を設定
+&sl { release-after-ms = <180>; }; // ダブルクリックに必要な時間を設定
 &mt {
     flavor = "balanced";
     quick-tap-ms = <0>;
