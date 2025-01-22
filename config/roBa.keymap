@@ -283,10 +283,10 @@
 
         ASTARTE {
             bindings = <
-&lt 5 Q             &kp P         &kp U          &kp Y  &kp COMMA                                                  &kp J  &kp D  &kp H  &kp G  &lt 5 W
-&lt 6 I             &kp O         &kp E          &kp A  &kp PERIOD  &kp HOME      &kp PAGE_UP    &kp K  &kp T  &kp N  &kp S  &lt 6 R
-&mt LEFT_SHIFT Z    &kp X         &kp SEMICOLON  &kp C  &kp SLASH   &kp END       &kp PAGE_DOWN  &kp M  &kp L  &kp F  &kp B  &mt RIGHT_SHIFT V
-&kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT   &lt 3 SPACE     &lt 4 SPACE          &lt 8 GRAVE            &kp BACKSPACE  &lt 4 ENTER                                                     &kp_exit_AML RCTRL
+&lt 5 Q           &kp P         &kp U          &kp Y        &kp COMMA                                    &kp J        &kp D  &kp H  &kp G  &lt 5 W
+&lt 6 I           &kp O         &kp E          &kp A        &kp PERIOD   &kp HOME         &kp PAGE_UP    &kp K        &kp T  &kp N  &kp S  &lt 6 R
+&mt LEFT_SHIFT Z  &kp X         &kp SEMICOLON  &kp C        &kp SLASH    &kp END          &kp PAGE_DOWN  &kp M        &kp L  &kp F  &kp B  &mt RIGHT_SHIFT V
+&kp LCTRL         &kp LEFT_GUI  &kp LEFT_ALT   &lt 3 SPACE  &lt 4 SPACE  &lt 8 GRAVE      &kp BACKSPACE  &lt 4 ENTER                       &kp RCTRL
             >;
 
             sensor-bindings = <&scroll_up_down>;
