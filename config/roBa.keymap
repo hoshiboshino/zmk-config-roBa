@@ -297,10 +297,10 @@
 
         ASTARTE {
             bindings = <
-&lt 5 Q           &kp P         &kp U          &kp Y        &kp COMMA                                    &kp J        &kp D  &kp H  &kp G  &lt 5 W
-&lt 6 I           &kp O         &kp E          &kp A        &kp PERIOD   &kp HOME         &kp PAGE_UP    &kp K        &kp T  &kp N  &kp S  &lt 6 R
-&mt LEFT_SHIFT Z  &kp X         &kp SEMICOLON  &kp C        &kp SLASH    &kp END          &kp PAGE_DOWN  &kp M        &kp L  &kp F  &kp B  &mt RIGHT_SHIFT V
-&kp LCTRL         &kp LEFT_GUI  &kp LEFT_ALT   &lt 3 SPACE  &lt 4 SPACE  &lt 8 GRAVE      &kp BACKSPACE  &lt 4 ENTER                       &kp RCTRL
+&lt 5 Q             &kp_exit_AML P         &kp_exit_AML U          &kp_exit_AML Y  &kp_exit_AML COMMA                                                  &kp_exit_AML J  &kp_exit_AML D  &kp_exit_AML H  &kp_exit_AML G  &lt 5 W
+&lt 6 I             &kp_exit_AML O         &kp_exit_AML E          &kp_exit_AML A  &kp_exit_AML PERIOD  &kp_exit_AML HOME      &kp_exit_AML PAGE_UP    &kp_exit_AML K  &kp_exit_AML T  &kp_exit_AML N  &kp_exit_AML S  &lt 6 R
+&mt LEFT_SHIFT Z    &kp_exit_AML X         &kp_exit_AML SEMICOLON  &kp_exit_AML C  &kp_exit_AML SLASH   &kp_exit_AML END       &kp_exit_AML PAGE_DOWN  &kp_exit_AML M  &kp_exit_AML L  &kp_exit_AML F  &kp_exit_AML B  &mt RIGHT_SHIFT V
+&kp_exit_AML LCTRL  &kp_exit_AML LEFT_GUI  &kp_exit_AML LEFT_ALT   &lt 3 SPACE     &lt 4 SPACE          &lt 8 GRAVE            &kp_exit_AML BACKSPACE  &lt 4 ENTER                                                     &kp_exit_AML RCTRL
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -317,10 +317,10 @@
 
         FUNCTION {
             bindings = <
-&kp F1   &kp F2        &kp F3            &kp F4      &kp F5                                     &kp F6            &kp F7        &kp F8                 &kp F9             &kp F10
-&kp TAB  &kp LA(TAB)   &kp LC(LEFT_ALT)  &kp LA(F4)  &kp LEFT_ALT  &trans      &trans           &kp LEFT_BRACKET  &kp LS(INT1)  &kp LS(RIGHT_BRACKET)  &kp LS(BACKSLASH)  &kp SINGLE_QUOTE
-&trans   &trans        &trans            &kp F11     &kp F12       &trans      &trans           &kp LS(N8)        &kp LS(N9)    &kp RIGHT_BRACKET      &kp BACKSLASH      &kp INT3
-&trans   &kp LEFT_GUI  &kp LEFT_ALT      &trans      &trans        &trans      &kp EXCLAMATION  &kp QUESTION                                                              &kp LS(INT3)
+&kp F1   &kp F2        &kp F3            &kp F4      &kp F5                                          &kp F6            &kp F7        &kp F8                 &kp F9             &kp F10
+&kp TAB  &kp LA(TAB)   &kp LC(LEFT_ALT)  &kp LA(F4)  &kp LEFT_ALT  &trans      &kp LC(SEMICOLON)     &kp LEFT_BRACKET  &kp LS(INT1)  &kp LS(RIGHT_BRACKET)  &kp LS(BACKSLASH)  &kp SINGLE_QUOTE
+&trans   &trans        &trans            &kp F11     &kp F12       &trans      &kp LC(SINGLE_QUOTE)  &kp LS(N8)        &kp LS(N9)    &kp RIGHT_BRACKET      &kp BACKSLASH      &kp INT3
+&trans   &kp LEFT_GUI  &kp LEFT_ALT      &trans      &trans        &trans      &kp EXCLAMATION       &kp QUESTION                                                              &kp LS(INT3)
             >;
         };
 
