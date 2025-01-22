@@ -238,21 +238,6 @@
 
             label = "MKP_EXIT_AML";
         };
-
-        kp_exit_AML: kp_exit_AML {
-            compatible = "zmk,behavior-macro-one-param";
-            #binding-cells = <1>;
-            bindings =
-                <&macro_press>,
-                <&macro_param_1to1 &kp MACRO_PLACEHOLDER>,
-                <&macro_pause_for_release>,
-                <&macro_release>,
-                <&macro_param_1to1 &kp MACRO_PLACEHOLDER>,
-                <&macro_tap>,
-                <&sl MOUSE>;
-
-            label = "KP_EXIT_AML";
-        };
     };
 
     behaviors {
@@ -298,10 +283,10 @@
 
         ASTARTE {
             bindings = <
-&lt 5 Q             &kp_exit_AML P         &kp_exit_AML U          &kp_exit_AML Y  &kp_exit_AML COMMA                                                  &kp_exit_AML J  &kp_exit_AML D  &kp_exit_AML H  &kp_exit_AML G  &lt 5 W
-&lt 6 I             &kp_exit_AML O         &kp_exit_AML E          &kp_exit_AML A  &kp_exit_AML PERIOD  &kp_exit_AML HOME      &kp_exit_AML PAGE_UP    &kp_exit_AML K  &kp_exit_AML T  &kp_exit_AML N  &kp_exit_AML S  &lt 6 R
-&mt LEFT_SHIFT Z    &kp_exit_AML X         &kp_exit_AML SEMICOLON  &kp_exit_AML C  &kp_exit_AML SLASH   &kp_exit_AML END       &kp_exit_AML PAGE_DOWN  &kp_exit_AML M  &kp_exit_AML L  &kp_exit_AML F  &kp_exit_AML B  &mt RIGHT_SHIFT V
-&kp_exit_AML LCTRL  &kp_exit_AML LEFT_GUI  &kp_exit_AML LEFT_ALT   &lt 3 SPACE     &lt 4 SPACE          &lt 8 GRAVE            &kp_exit_AML BACKSPACE  &lt 4 ENTER                                                     &kp_exit_AML RCTRL
+&lt 5 Q             &kp P         &kp U          &kp Y  &kp COMMA                                                  &kp J  &kp D  &kp H  &kp G  &lt 5 W
+&lt 6 I             &kp O         &kp E          &kp A  &kp PERIOD  &kp HOME      &kp PAGE_UP    &kp K  &kp T  &kp N  &kp S  &lt 6 R
+&mt LEFT_SHIFT Z    &kp X         &kp SEMICOLON  &kp C  &kp SLASH   &kp END       &kp PAGE_DOWN  &kp M  &kp L  &kp F  &kp B  &mt RIGHT_SHIFT V
+&kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT   &lt 3 SPACE     &lt 4 SPACE          &lt 8 GRAVE            &kp BACKSPACE  &lt 4 ENTER                                                     &kp_exit_AML RCTRL
             >;
 
             sensor-bindings = <&scroll_up_down>;
