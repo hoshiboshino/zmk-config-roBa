@@ -3,8 +3,6 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
-#include <dt-bindings/zmk/pointing.h>
-#include <dt-bindings/zmk/pointing.h>
 
 #define DEFAULT 0
 #define ASTARTE 1
@@ -192,7 +190,7 @@
         M11: M11 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp LS(A) &kp V &kp E &kp N &kp G &kp E &kp D &kp N1 &kp LS(F) &kp O &kp L &kp D &kp AT>;
+            bindings = <&none &kp LS(A) &kp V &kp E &kp N &kp G &kp E &kp D &kp N1 &kp LS(F) &kp O &kp L &kp D &kp AT &kp ENTER>;
             label = "M11";
         };
 
