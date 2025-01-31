@@ -192,7 +192,7 @@
         M11: M11 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(A) &kp V &kp E &kp N &kp G &kp E &kp D &kp N1 &kp LS(F) &kp O &kp L &kp D &kp LEFT_BRACKET>;
+            bindings = <&kp LS(A) &kp V &kp E &kp N &kp G &kp E &kp D &kp N1 &kp LS(F) &kp O &kp L &kp D &kp LEFT_BRACKET &kp ENTER>;
             label = "M11";
         };
 
