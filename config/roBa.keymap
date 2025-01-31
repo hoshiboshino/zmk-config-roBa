@@ -3,6 +3,8 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
+#include <dt-bindings/zmk/pointing.h>
+#include <dt-bindings/zmk/pointing.h>
 
 #define DEFAULT 0
 #define ASTARTE 1
@@ -286,10 +288,10 @@
 
         FUNCTION {
             bindings = <
-&kp F1   &kp F2        &kp F3            &kp F4      &kp F5                                     &kp F6            &kp F7        &kp F8                 &kp F9             &kp F10
-&kp TAB  &kp LA(TAB)   &kp LC(LEFT_ALT)  &kp LA(F4)  &kp LEFT_ALT  &trans      &trans           &kp LEFT_BRACKET  &kp LS(INT1)  &kp LS(RIGHT_BRACKET)  &kp LS(BACKSLASH)  &kp SINGLE_QUOTE
-&trans   &trans        &trans            &kp F11     &kp F12       &trans      &trans           &kp LS(N8)        &kp LS(N9)    &kp RIGHT_BRACKET      &kp BACKSLASH      &kp INT3
-&trans   &kp LEFT_GUI  &kp LEFT_ALT      &trans      &trans        &trans      &kp EXCLAMATION  &kp QUESTION                                                              &kp LS(INT3)
+&kp F1   &kp F2        &kp F3            &kp F4      &kp F5                                          &kp F6            &kp F7        &kp F8                 &kp F9             &kp F10
+&kp TAB  &kp LA(TAB)   &kp LC(LEFT_ALT)  &kp LA(F4)  &kp LEFT_ALT  &trans      &kp LC(SEMI)          &kp LEFT_BRACKET  &kp LS(INT1)  &kp LS(RIGHT_BRACKET)  &kp LS(BACKSLASH)  &kp SINGLE_QUOTE
+&trans   &trans        &trans            &kp F11     &kp F12       &trans      &kp LC(SINGLE_QUOTE)  &kp LS(N8)        &kp LS(N9)    &kp RIGHT_BRACKET      &kp BACKSLASH      &kp INT3
+&trans   &kp LEFT_GUI  &kp LEFT_ALT      &trans      &trans        &trans      &kp EXCLAMATION       &kp QUESTION                                                              &kp LS(INT3)
             >;
         };
 
@@ -304,10 +306,10 @@
 
         DEVICE_CONTROL {
             bindings = <
-&trans  &trans  &trans  &trans          &trans                                &trans        &trans        &trans        &trans        &trans
-&trans  &trans  &trans  &trans          &trans  &trans          &bootloader   &trans        &trans        &trans        &trans        &trans
-&trans  &trans  &trans  &trans          &trans  &trans          &out OUT_TOG  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-&trans  &trans  &trans  &bt BT_CLR_ALL  &trans  &bt BT_CLR      &out OUT_BLE  &out OUT_USB                                            &trans
+&trans      &trans  &trans          &trans  &trans                            &trans        &trans        &trans        &trans        &trans
+&trans      &trans  &trans          &trans  &trans  &trans      &bootloader   &trans        &trans        &trans        &trans        &trans
+&trans      &trans  &trans          &trans  &trans  &trans      &trans        &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
+&bt BT_CLR  &trans  &bt BT_CLR_ALL  &trans  &trans  &trans      &out OUT_BLE  &out OUT_USB                                            &trans
             >;
         };
 
@@ -322,10 +324,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans    &mkp MB3  &trans    &trans                      &trans  &trans    &mkp MB3  &trans    &trans
-&trans  &mkp MB1  &trans    &mkp MB2  &trans  &trans      &trans  &trans  &mkp MB1  &mo 8     &mkp MB2  &trans
-&trans  &trans    &trans    &trans    &trans  &trans      &trans  &trans  &trans    &trans    &trans    &trans
-&trans  &trans    &trans    &trans    &trans  &trans      &trans  &trans                                &trans
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &mkp MB3  &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mo 8     &mkp MB2  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &trans
             >;
         };
 
