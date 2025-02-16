@@ -330,10 +330,10 @@
 
         ANYTHING {
             bindings = <
-&trans  &kp LG(PRINTSCREEN)     &kp LA(PRINTSCREEN)      &kp LS(LG(S))  &trans                                            &kp LC(PAGE_UP)    &kp LC(PAGE_DOWN)   &kp LC(UP_ARROW)    &trans               &trans
-&trans  &kp LG(TAB)             &trans                   &trans         &trans         &trans      &kp LC(SEMICOLON)      &kp LC(HOME)       &kp LC(LEFT_ARROW)  &kp LC(DOWN_ARROW)  &kp LC(RIGHT_ARROW)  &trans
-&trans  &kp LS(LG(LEFT_ARROW))  &kp LS(LG(RIGHT_ARROW))  &trans         &trans         &trans      &kp LC(SINGLE_QUOTE)   &kp LC(END)        &trans              &trans              &trans               &trans
-&trans  &trans                  &trans                   &kp LG(LEFT)   &kp LG(RIGHT)  &trans      &kp LC(LA(LS(MINUS)))  &kp LA(LC(MINUS))                                                               &trans
+&trans  &kp LG(PRINTSCREEN)     &kp LA(PRINTSCREEN)      &kp LS(LG(S))      &trans                                            &kp LC(PAGE_UP)    &kp LC(PAGE_DOWN)   &kp LC(UP_ARROW)    &trans               &trans
+&trans  &kp LG(LC(LEFT))        &kp LG(TAB)              &kp LG(LC(RIGHT))  &trans         &trans      &kp LC(SEMICOLON)      &kp LC(HOME)       &kp LC(LEFT_ARROW)  &kp LC(DOWN_ARROW)  &kp LC(RIGHT_ARROW)  &trans
+&trans  &kp LS(LG(LEFT_ARROW))  &kp LS(LG(RIGHT_ARROW))  &trans             &trans         &trans      &kp LC(SINGLE_QUOTE)   &kp LC(END)        &trans              &trans              &trans               &trans
+&trans  &trans                  &trans                   &kp LG(LEFT)       &kp LG(RIGHT)  &trans      &kp LC(LA(LS(MINUS)))  &kp LA(LC(MINUS))                                                               &trans
             >;
         };
 
