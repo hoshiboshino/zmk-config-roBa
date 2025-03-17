@@ -114,7 +114,7 @@
         M00: M00 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp J &kp MINUS &kp H &kp O &kp S &kp H &kp I &kp N &kp O &kp TAB &kp LS(A) &kp V &kp E &kp N &kp G &kp E &kp D &kp N2 &kp N7 &kp LS(F) &kp O &kp L &kp D &kp ENTER>;
+            bindings = <&kp J &kp MINUS &kp H &kp O &kp S &kp H &kp I &kp N &kp O &kp TAB &kp LS(A) &kp V &kp E &kp N &kp G &kp E &kp D &kp N2 &kp N8 &kp LS(F) &kp O &kp L &kp D &kp ENTER>;
             label = "M00";
         };
 
@@ -128,7 +128,7 @@
         M02: M02 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(A) &kp V &kp E &kp N &kp G &kp E &kp D &kp N9 &kp N0 &kp LS(F) &kp O &kp L &kp D &kp ENTER>;
+            bindings = <&kp LS(A) &kp V &kp E &kp N &kp G &kp E &kp D &kp N9 &kp N1 &kp LS(F) &kp O &kp L &kp D &kp ENTER>;
             label = "M02";
         };
 
