@@ -128,7 +128,7 @@
         M02: M02 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(A) &kp V &kp E &kp N &kp G &kp E &kp D &kp N9 &kp N2 &kp LS(F) &kp O &kp L &kp D &kp ENTER>;
+            bindings = <&kp LS(A) &kp V &kp E &kp N &kp G &kp E &kp D &kp N9 &kp N3 &kp LS(F) &kp O &kp L &kp D &kp ENTER>;
             label = "M02";
         };
 
