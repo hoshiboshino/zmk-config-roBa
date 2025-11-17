@@ -50,12 +50,12 @@
             key-positions = <12 13>;
         };
 
-        Return {
+        Undo {
             bindings = <&kp LC(Z)>;
             key-positions = <23 24>;
         };
 
-        Advance {
+        Redo {
             bindings = <&kp LC(Y)>;
             key-positions = <24 25>;
         };
@@ -93,6 +93,16 @@
         tog_Game {
             bindings = <&tog 2>;
             key-positions = <35 42>;
+        };
+
+        Back {
+            bindings = <&kp LA(LEFT_ARROW)>;
+            key-positions = <41 18>;
+        };
+
+        Forward {
+            bindings = <&kp LA(RIGHT_ARROW)>;
+            key-positions = <41 19>;
         };
     };
 
