@@ -97,12 +97,12 @@
 
         Back {
             bindings = <&kp LA(LEFT_ARROW)>;
-            key-positions = <41 18>;
+            key-positions = <18 19>;
         };
 
         Forward {
             bindings = <&kp LA(RIGHT_ARROW)>;
-            key-positions = <41 19>;
+            key-positions = <19 20>;
         };
     };
 
@@ -131,7 +131,7 @@
         M01: M01 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(A) &kp V &kp E &kp N &kp G &kp E &kp D &kp N4 &kp N4 &kp LS(F) &kp O &kp L &kp D &kp ENTER>;
+            bindings = <&kp LS(A) &kp V &kp E &kp N &kp G &kp E &kp D &kp N4 &kp N5 &kp LS(F) &kp O &kp L &kp D &kp ENTER>;
             label = "M01";
         };
 
