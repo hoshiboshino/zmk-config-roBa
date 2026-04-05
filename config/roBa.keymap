@@ -5,7 +5,7 @@
 
 #define DEFAULT 0
 #define ASTARTE 1
-#define Gamd 2
+#define Game 2
 #define FUNCTION 3
 #define NUM 4
 #define D_CON 5
