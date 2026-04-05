@@ -13,8 +13,8 @@
 };
 
 &trackball {
-    automouse-layer = <4>;
-    scroll-layers = <5>;
+    automouse-layer = <7>;
+    scroll-layers = <8>;
 
     // arrows {
     //     layers = <3>;
@@ -252,7 +252,7 @@
                 <&macro_release>,
                 <&macro_param_1to1 &mkp MACRO_PLACEHOLDER>,
                 <&macro_tap>,
-                <&sl MOUSE>;
+                <&sl 7>;
 
             label = "MKP_EXIT_AML";
         };
