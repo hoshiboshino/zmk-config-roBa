@@ -139,14 +139,14 @@
         M01: M01 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(A) &kp V &kp E &kp N &kp G &kp E &kp D &kp N4 &kp N6 &kp LS(F) &kp O &kp L &kp D &kp ENTER>;
+            bindings = <&kp LS(A) &kp V &kp E &kp N &kp G &kp E &kp D &kp N4 &kp N8 &kp LS(F) &kp O &kp L &kp D &kp ENTER>;
             label = "M01";
         };
 
         M02: M02 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(A) &kp V &kp E &kp N &kp G &kp E &kp D &kp N9 &kp N4 &kp LS(F) &kp O &kp L &kp D &kp ENTER>;
+            bindings = <&kp LS(A) &kp V &kp E &kp N &kp G &kp E &kp D &kp N9 &kp N5 &kp LS(F) &kp O &kp L &kp D &kp ENTER>;
             label = "M02";
         };
 
